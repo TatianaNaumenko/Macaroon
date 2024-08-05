@@ -1,0 +1,91 @@
+@keyframes moveUpDownBerry {
+   0% {
+     transform: translateY(0);
+   }
+ 
+   50% {
+     transform: translateY(90%);
+   }
+ 
+   100% {
+     transform: translateY(0);
+   }
+ }
+
+ @keyframes circlePulse {
+   0% {
+     transform: scale(0.5);
+     opacity: 1;
+   }
+ 
+   100% {
+     transform: scale(4.5);
+     opacity: 0;
+   }
+ }
+ 
+ @keyframes circlePulse2 {
+   0% {
+     transform: scale(0.5);
+     opacity: 1;
+   }
+ 
+   100% {
+     transform: scale(4);
+     opacity: 0;
+   }
+ }
+
+ @keyframes glowingBorder {
+   0% {
+     box-shadow: none;
+   }
+ 
+   50% {
+     box-shadow: 0 0 5px red;
+   }
+ 
+   100% {
+     box-shadow: none;
+   }
+ }
+
+ @keyframes pulseShadow {
+   0% {
+     box-shadow: 0px 0px 0px 0px rgba(130, 19, 40, 0.5);
+   }
+ 
+   50% {
+     box-shadow: 0px 0px 5px 1px rgba(130, 19, 40, 0.5);
+   }
+ 
+   100% {
+     box-shadow: 0px 0px 12.6px 2.4px rgba(130, 19, 40, 0.5);
+   }
+ }
+ @keyframes l5 {
+   0%,
+   20% {
+     background-size: var(--s), var(--s), var(--s), var(--s);
+   }
+ 
+   20.01%,
+   40% {
+     background-size: var(--e), var(--s), var(--s), var(--s);
+   }
+ 
+   40.01%,
+   60% {
+     background-size: var(--e), var(--e), var(--s), var(--s);
+   }
+ 
+   60.01%,
+   80% {
+     background-size: var(--e), var(--e), var(--e), var(--s);
+   }
+ 
+   80.01%,
+   100% {
+     background-size: var(--e), var(--e), var(--e), var(--e);
+   }
+ }
